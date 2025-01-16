@@ -3,7 +3,7 @@ resource "aws_ssm_parameter" "security_grp" {
   type        = "String"
   value       = local.sg_id
   tags = {
-    environment = "Expense-dev"
+    environment = "roboshop-dev"
   }
   overwrite =true
 }
