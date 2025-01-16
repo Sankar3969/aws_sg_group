@@ -3,7 +3,7 @@ variable Environment {
 }
 variable project{
     type = string
-    default = "roboshop"
+    default = "expense"
 }
 variable sg_type {
   type        = string
@@ -15,7 +15,7 @@ variable description {
 variable common_tags {
     type = map(string)
     default = {
-     project = "roboshop"
+     project = "expense"
      Terraform = true
     }
 }
